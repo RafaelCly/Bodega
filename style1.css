@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    background-color: rgb(122, 153, 143);
+}
+
+.head1 {
+    background-color: rgb(62, 44, 127);     
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.en1 {
+    margin: 5px;
+    color: yellow;
+}
+.nav1 {
+    margin-left: 350px;
+}
+
+.btn1 {
+    font-size: 25px;
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(0, 255, 89);
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn1:hover {
+    color: aqua;
+    border-left: 20px;
+    border-bottom: 2px solid aqua; /* Aparece la línea al pasar el mouse */
+}
+
+
+.m2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.cat_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+}
+
+.cat_1_1 {
+    margin-top: 7em;
+}
+
+.cat_gas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cat_link {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgb(108, 72, 38);
+}
+
+.cat_link:hover {
+    color: rgb(0, 255, 89);
+    font-size: 25px;
+}
+
+footer {
+    background-color: rgb(125, 114, 166);   
+    text-align: center;   
+    padding: 2px;
+}

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    background-color: rgb(122, 153, 143);
+}
+
+.head1 {
+    background-color: rgb(62, 44, 127);     
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.en1 {
+    margin: 5px;
+    color: yellow;
+}
+.nav1 {
+    margin-left: 350px;
+}
+
+.btn1 {
+    font-size: 25px;
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(0, 255, 89);
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn1:hover {
+    color: aqua;
+    border-left: 20px;
+    border-bottom: 2px solid aqua; /* Aparece la línea al pasar el mouse */
+}
+
+
+.m2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.inicio {
+    background-color: rgb(167, 178, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15em;
+}
+
+.desc_p {
+    width: 30em;
+    font-size: 30px;
+}
+
+.mami {
+    height: 10em;
+    margin: 30px 0;
+}
+
+.mami:hover {
+    transform: scale(2.2);
+}
+
+footer {
+    background-color: rgb(125, 114, 166);   
+    text-align: center;   
+    padding: 2px;
+}
